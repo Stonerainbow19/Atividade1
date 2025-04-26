@@ -42,6 +42,15 @@ header nav{
     top: 20px;
 }
 
+.bars-menu:nth-child(4){
+    position: absolute;
+    z-index: 100;
+    top: 0;
+    width: 40px;
+    height: 40px;
+    background:transparent;
+}
+
 .lista-items {
     display: flex;
     list-style: none;
@@ -73,19 +82,21 @@ input[type="checkbox"]:checked ~ label .bars-menu:nth-child(3) {
 }
 
 .box-menu {
-    background-color: rgba(107, 190, 163, 0.801);
+    background-color:#B74545;
     display: none;
     transition: 0.5s all;
     position: absolute;
-    top: 75px;
-    width: 100%;
+    top: 85px;
+    width: 25%;
+    padding: 20px;
     left: 0;
 }
 
 .box-menu ul li {
     padding: 10px  0;
-    border: 1px solid rgb(199, 199, 199);
+    border: 1px solid transparent;
     color: white;
+    list-style: none;
 
     a{
         width: 100%;
@@ -106,7 +117,7 @@ input[type="checkbox"]:checked ~ .box-menu {
 
 }
 .barra-pesquisa input{
-    padding: 5px;
+    padding: 10px;
     border: none;
     width: 90%;
     border-radius: 10px 0 0 10px;
