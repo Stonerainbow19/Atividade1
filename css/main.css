@@ -36,7 +36,6 @@ article {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
 
     article {
         font-size: 1rem;
