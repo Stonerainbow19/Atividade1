@@ -24,6 +24,15 @@ article {
     font-size: 20px;
 
 }
+.juncao-avisos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+    
+
+}
 
 .avisos {
     margin: 0 20px;
