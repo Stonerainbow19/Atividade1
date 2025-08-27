@@ -23,8 +23,9 @@ button{
 
 button:hover{
     background-color: #92E4F6;
-    
+
 }
+
 #menu-hamburger {
     display: flex;
     flex-direction: column;
