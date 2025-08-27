@@ -24,13 +24,13 @@ article {
     font-size: 20px;
 
 }
+
 .juncao-avisos{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 20px 0;
-    
 
 }
 
@@ -39,7 +39,7 @@ article {
     display: flex;
     justify-content: center;
     align-items: center;
-
+    flex-direction: column;
     article {
         font-size: 1rem;
 
