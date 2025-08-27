@@ -37,9 +37,10 @@ article {
 .avisos {
     margin: 0 20px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     flex-direction: column;
+    
     article {
         font-size: 1rem;
 
