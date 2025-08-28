@@ -26,10 +26,10 @@ button:hover{
 
 }
 
-.cabecalho:after{
-content: "";
-  display: table;
-  clear: both;
+.cabecalho:{
+display: flex;
+      justify-content: space-between;
+      gap: 20px;
 }
 
 .coluna {
