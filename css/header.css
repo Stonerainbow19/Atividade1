@@ -31,6 +31,8 @@ content: "";
   display: table;
   clear: both;
   padding: 0 20px;
+  justify-content: center;
+  align-items: center;
 }
 
 .estilo-conteudo{   
