@@ -31,8 +31,6 @@ content: "";
   display: table;
   clear: both;
   padding: 0 20px;
-  justify-content: space-between;
-  align-items: center;
 }
 
 .estilo-conteudo{   
@@ -40,6 +38,8 @@ content: "";
   width: 33.33%;
   padding: 10px;
   height: 300px;
+    justify-content: space-between;
+  align-items: center;
 }
 
 #menu-hamburger {
