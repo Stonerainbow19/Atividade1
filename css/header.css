@@ -25,10 +25,18 @@ button:hover{
     background-color: #92E4F6;
 
 }
+
+.cabecalho{
+display: flex;
+flex-direction: column;
+}
+
 .estilo-conteudo{   
     display: flex;
     justify-content: center;
+    align-items: center;
 }
+
 #menu-hamburger {
     display: flex;
     flex-direction: column;
