@@ -30,7 +30,7 @@ button:hover{
 content: "";
   display: table;
   clear: both;
-  padding: 20px;
+  padding: 0, 20px;
 }
 
 .estilo-conteudo{   
