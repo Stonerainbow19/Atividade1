@@ -20,13 +20,16 @@ button{
     border-radius: 10%;
 
 }
+.selecinado{    
+    background-color: #92E4F6;
 
+}
 button:hover{
     background-color: #92E4F6;
 
 }
 
-.cabecalho:{
+.cabecalho{
 display: flex;
       justify-content: space-between;
       gap: 20px;
