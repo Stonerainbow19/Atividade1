@@ -26,15 +26,17 @@ button:hover{
 
 }
 
-.cabecalho{
-
-flex-direction: column;
+.cabecalho:after{
+content: "";
+  display: table;
+  clear: both;
 }
 
 .estilo-conteudo{   
-    display: flex;
-   
-    flex-direction: column;
+     float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 300px;
 }
 
 #menu-hamburger {
