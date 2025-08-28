@@ -27,7 +27,7 @@ button:hover{
 }
 
 .cabecalho{
-display: flex;
+
 flex-direction: column;
 }
 
