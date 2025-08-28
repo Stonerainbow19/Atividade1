@@ -25,7 +25,10 @@ button:hover{
     background-color: #92E4F6;
 
 }
-
+.estilo-conteudo{   
+    display: flex;
+    justify-content: center;
+}
 #menu-hamburger {
     display: flex;
     flex-direction: column;
