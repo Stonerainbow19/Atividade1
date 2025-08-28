@@ -26,3 +26,126 @@ button:hover{
 
 }
 
+#menu-hamburger {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+
+
+}
+
+.bars-menu {
+    background-color: aliceblue;
+    width: 30px;
+    height: 5px;
+    border-radius: 10px;
+    transition: 0.5s ease-in-out;
+}
+
+.bars-menu:nth-child(1){
+    position: absolute;
+    top: 0px;
+}
+
+
+
+
+.bars-menu:nth-child(2){
+    position: absolute;
+    top: 10px;
+}
+
+.bars-menu:nth-child(3){
+    position: absolute;
+    top: 20px;
+}
+
+.bars-menu:nth-child(4){
+    position: absolute;
+    z-index: 100;
+    top: 0;
+    width: 40px;
+    height: 40px;
+    background:transparent;
+}
+
+.lista-items {
+    display: flex;
+    list-style: none;
+    li {
+        margin: 0 10px;
+    }
+}
+
+label:hover{
+    cursor: pointer;
+}
+
+input[type="checkbox"] {
+    display: none;
+}
+
+input[type="checkbox"]:checked ~ label .bars-menu:nth-child(1) {
+    transform: rotate(45deg);
+    top: 10px;
+}
+
+input[type="checkbox"]:checked ~ label .bars-menu:nth-child(2) {
+    display: none;
+}
+
+input[type="checkbox"]:checked ~ label .bars-menu:nth-child(3) {
+    transform: rotate(-45deg);
+    top: 10px;
+}
+
+.box-menu {
+    background-color:#B74545;
+    display: none;
+    transition: 0.5s all;
+    position: absolute;
+    top: 85px;
+    width: 25%;
+    padding: 20px;
+    left: 0;
+}
+
+.box-menu ul li {
+    padding: 10px  0;
+    border: 1px solid transparent;
+    color: white;
+    list-style: none;
+
+    a{
+        width: 100%;
+        height: 100%;
+    }
+}
+.box-menu ul li:hover {
+    background-color:  rgba(203, 230, 221, 0.801);
+}
+
+input[type="checkbox"]:checked ~ .box-menu {
+    display: block;
+}
+
+.barra-pesquisa {
+    width: 20%;
+    display: flex;
+
+}
+.barra-pesquisa input{
+    padding: 10px;
+    border: none;
+    width: 90%;
+    border-radius: 10px 0 0 10px;
+}
+.btn-pesquisa {
+    padding: 5px;
+    width: 40px;
+    border-radius: 0 10px 10px 0;
+    border: none;
+}
+.btn-pesquisa:hover {
+    cursor: pointer;
+}
